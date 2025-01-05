@@ -33,7 +33,9 @@ I wanted to scan an insanely huge area for fun (1056 by 4200 (cough mexico) with
 Because of this problem I plan to create a new version that saves things temporarily to disk to minimise memory use, but this will be complicated.
 
 ## Compared to JKM and SweetBaboo's
-OK, so my goal was to make it run faster than JKM and SweetBaboos's version, so lets look at the numbers.
+OK, so my goal was to make it run faster than JKM and SweetBaboos's version, so lets look at the numbers. These tests were made using the same litematica file, same settings and same machine:
+QuarrySaver:            `Read and analysed 286,858,440 blocks in 0:01:10.415282 (70.415 seconds) finding 5244 illegal blocks.`
+JKM and SweetBaboo's:   ``
 
 # Credits
 I got the idea to make this after seeing JKM and SweetBaboo's version they made and how slow it was, and wanted to improve the quality of life of building a quarry (and to prove that python can be fast if written right).
