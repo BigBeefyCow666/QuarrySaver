@@ -1,5 +1,5 @@
 # QuarrySaver
-A python script to create a list of waypoints of immovable blocks where you want to build a quarry or world-eater.
+A python script to create a list of waypoints of immovable blocks where you want to build a quarry or world-eater. Made for 1.21.4 (checks trial chambers) but should work on lower versions as well.
 
 # Prerequisites
 1. Python 3 (ofc)
