@@ -1,6 +1,12 @@
 # QuarrySaver
 A python script to create a list of waypoints of immovable blocks where you want to build a quarry or world-eater.
 
+# Prerequisites
+1. Python 3 (ofc)
+2. nbt python library (pip install nbt)
+3. ray python library (pip install ray)
+All other libraries should already be installed (I think, let me know if that isnt the case).
+
 # How to use
 ![2025-01-05_13 02 12](https://github.com/user-attachments/assets/5cc1d6a8-b7a8-483b-8d40-e52d30437d31)
 Take a litematica area selection of the area you will build your quarry/world-eater.
@@ -34,9 +40,19 @@ Because of this problem I plan to create a new version that saves things tempora
 
 ## Compared to JKM and SweetBaboo's
 OK, so my goal was to make it run faster than JKM and SweetBaboos's version, so lets look at the numbers. These tests were made using the same litematica file, same settings and same machine:
-QuarrySaver:            `Read and analysed 286,858,440 blocks in 0:01:10.415282 (70.415 seconds) finding 5244 illegal blocks.`
-JKM and SweetBaboo's:   ``
+
+QuarrySaver:
+```
+Read and analysed 286,858,440 blocks in 0:01:10.415282 (70.415 seconds) finding 5244 illegal blocks.
+```
+JKM and SweetBaboo's:   
+```
+Total elapsed time: 278.3692 seconds
+Load time: 220.3033 seconds
+Process time: 28.3054 seconds
+```
+So 278.4 / 70.4 = 3.955 ≈ 4 times faster! So I'd say my project was a success!
 
 # Credits
 I got the idea to make this after seeing JKM and SweetBaboo's version they made and how slow it was, and wanted to improve the quality of life of building a quarry (and to prove that python can be fast if written right).
-Credit to the decoding algorithm for litematica files goes to the litemapy library (https://pypi.org/project/litemapy/), which I just copied the source for decoding, de-bloated and made work in a ray cluster.
+Credit to the decoding algorithm for litematica files goes to the [litemapy library](https://pypi.org/project/litemapy/), which I just copied the source for decoding, de-bloated and made work in a ray cluster.
