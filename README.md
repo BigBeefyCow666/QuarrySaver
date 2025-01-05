@@ -8,6 +8,8 @@ A python script to create a list of waypoints of immovable blocks where you want
 All other libraries should already be installed (I think, let me know if that isnt the case).
 
 # How to use
+Download the [python script](QuarrySaver.py) and install the prerequistes.
+
 ![2025-01-05_13 02 12](https://github.com/user-attachments/assets/5cc1d6a8-b7a8-483b-8d40-e52d30437d31)
 Take a litematica area selection of the area you will build your quarry/world-eater.
 
