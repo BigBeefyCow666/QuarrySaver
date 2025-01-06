@@ -59,4 +59,4 @@ Process time: 28.3054 seconds
 
 # Credits
 I got the idea to make this after seeing JKM and SweetBaboo's version they made and how slow it was, and wanted to improve the quality of life of building a quarry (and to prove that python can be fast if written right).  
-Credit to the decoding algorithm for litematica files goes to the [litemapy library](https://pypi.org/project/litemapy/), which I just copied the source for decoding, de-bloated and made work in a ray cluster.
+Credit to the decoding algorithm for litematica files goes to the [litemapy library](https://pypi.org/project/litemapy/), which I just copied the source for decoding, de-bloated and made work in parallel.
