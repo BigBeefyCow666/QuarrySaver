@@ -35,6 +35,9 @@ You can save this file anywhere and then copy the waypoints across, or select th
 Relog and the waypoints should now be in your world!
 
 # Preformance
+## Speed
+Due to the enhancements in v1.1.0 (using shared memory and combining decoding and checking functions), I was easily able to run the 1 billion block file, analising it in 90 seconds (I was getting that time on a quater million block file just the other day)! It used 10GB of RAM while doing this (trust me compared to previous versions this is very good). So I'm gonna say it uses about 1GB of RAM per 100 million blocks in a schematic. (This is a rough estimate)
+
 ## Compared to previous versions
 OK, so my goal was to make it run faster than JKM and SweetBaboos's version, so lets look at the numbers. These tests were made using the same litematica file, same settings and same machine:
 
