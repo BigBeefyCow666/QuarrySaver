@@ -1,9 +1,14 @@
 # QuarrySaver
 A python script to create a list of waypoints of immovable blocks where you want to build a quarry or world-eater. Made for 1.21.4 (checks trial chambers) but should work on lower versions as well.
 
+# WARNING!
+The current version (v1.1.0) only works in Linux, as it uses some memory optimisations that are only available there.  
+Use [version v1.0.0](https://github.com/BigBeefyCow666/QuarrySaver/tree/old-v1.0.0) (About 3x slower and much more memory intensive) for Windows or MacOS. (I might make a better one for non-Linux one day)
+
 # Prerequisites
 1. Python 3 (ofc)
-2. nbt python library (pip install nbt)
+2. numpy python library (pip install numpy)
+3. nbt python library (pip install nbt)
 
 All other libraries should already be installed (I think, let me know if that isnt the case).
 
